@@ -16,11 +16,12 @@ class RolController extends Controller {
 
     public function guardar(Request $peticion) {
         $rol = Rol::create([
-                    'nombre_rol' => $peticion->input('nombrerol')
+                    'nombre_rol' => $peticion->input('nombrerol'),
+                    'nivel_permiso' => $peticion->input('nivelpermiso')
         ]);
         $listaRoles = Rol::all();
         $parametros = ['roles' => $listaRoles];
-        return view('rol.crear', $parametros);
+         return redirect('/rol/crear');
     }
 
 }

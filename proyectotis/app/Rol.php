@@ -8,6 +8,6 @@ class Rol extends Model {
 
     public $table = 'rol';
     public $primaryKey = 'id_rol';
-    protected $fillable = ['nombre_rol'];
+    protected $fillable = ['nombre_rol', 'nivel_permiso'];
 
 }
