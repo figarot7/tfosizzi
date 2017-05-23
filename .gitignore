@@ -1,0 +1,7 @@
+/proyectotis/vendor
+/proyectotis/node_modules
+/proyectotis/public/storage
+/proyectotis/Homestead.yaml
+/proyectotis/Homestead.json
+/proyectotis/.env
+/proyectotis/nbproject/private/
