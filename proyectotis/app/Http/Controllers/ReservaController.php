@@ -26,6 +26,7 @@ class ReservaController extends Controller {
                     'hora_fin' => $peticion->input('hfin'),
                     'descripcion_reserva' => $peticion->input('descripcion')
         ]);
+        return redirect('/reserva/lista');
     }
 
     public function lista() {
