@@ -26,6 +26,8 @@ Route::get('/usuario/lista', 'UsuarioController@lista');
 Route::get('/usuario/eliminar/{id}', 'UsuarioController@eliminar');
 Route::get('/usuario/editar/{id}', 'UsuarioController@editar');
 Route::post('/usuario/actualizar/{id}', 'UsuarioController@actualizar');
+Route::get('/usuario/myinfo', 'UsuarioController@myinfo');
+
 /*LibroController*/
 Route::get('/libro/crear', 'LibroController@crear');
 Route::post('/libro/almacenar', 'LibroController@almacenar');

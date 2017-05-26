@@ -14,6 +14,7 @@ class CreateUsuariosTable extends Migration
     {
         Schema::create('usuario', function (Blueprint $table) {
             $table->increments('id_usuario');
+            $table->integer('id_rol')->unsigned();
             $table->string('nombre');
             $table->string('ape_pat');
             $table->string('ape_mat');
@@ -21,6 +22,7 @@ class CreateUsuariosTable extends Migration
             $table->string('password');
             $table->enum('tipo', ['adm', 'lec']); 
             $table->enum('activo', [1, 0])->default(1);        
+            //$table->foreign('id_rol')->references('id_rol')->on('id_rol');    
             $table->rememberToken();
             $table->timestamps();
         });

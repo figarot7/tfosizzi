@@ -63,7 +63,7 @@
                     <p><B>Nivel 2:</B> Este usuario puede crear ambientes y reservas</p>
                 </div>
                 <div class="alert alert-warning">
-                    <p><B>Nivel 2:</B> Este usuario se limita solo a hacer reservas</p>
+                    <p><B>Nivel 3:</B> Este usuario se limita solo a hacer reservas</p>
                 </div>
             </div>
         </div>

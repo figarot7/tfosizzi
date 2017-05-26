@@ -16,7 +16,7 @@ class Usuario extends User {
             $this->attributes['password'] = Hash::make($valor);
         }
     }
-
+  
     public function getNombreCompleto() {
         return $this->attributes['nombre'] . ' ' . $this->attributes['ape_pat'] . ' ' . $this->attributes['ape_mat'];
     }

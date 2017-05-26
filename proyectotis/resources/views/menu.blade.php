@@ -12,3 +12,4 @@
 <li><a href="/reserva/crear">realizar rerva</a></li>
 <li><a href="/suscripcion/listaS">reservas suscritas</a></li>
 @endif
+<li><a href="/usuario/myinfo">Mi informacion</a></li>
